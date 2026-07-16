@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed">#FF2196F3</color>
+    <color name="splash_bg">#FF0D47A1</color>
+    <color name="onboarding_bg1">#FF1A237E</color>
+    <color name="onboarding_bg2">#FF004D40</color>
+    <color name="onboarding_bg3">#FF311B92</color>
+</resources>

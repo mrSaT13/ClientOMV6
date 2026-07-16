@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OMV Client</string>
+
+    <!-- Splash -->
+    <string name="splash_loading">Загрузка…</string>
+    <string name="splash_subtitle">Управление NAS с телефона</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Добро пожаловать</string>
+    <string name="onboarding_desc1">Управляйте вашим OpenMediaVault сервером\nпрямо с телефона или планшета</string>
+    <string name="onboarding_secure">Безопасность</string>
+    <string name="onboarding_desc2">Все данные зашифрованы на устройстве.\nПароли никогда не покидают ваш телефон</string>
+    <string name="onboarding_control">Полный контроль</string>
+    <string name="onboarding_desc3">Мониторинг дисков, сети, температуры.\nУправление сервисами в пару нажатий</string>
+    <string name="onboarding_skip">Пропустить</string>
+    <string name="onboarding_next">Далее</string>
+    <string name="onboarding_start">Начать</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_services">Сервисы</string>
+    <string name="nav_monitoring">Мониторинг</string>
+    <string name="nav_docker">Docker</string>
+    <string name="nav_notifications">Уведомления</string>
+    <string name="nav_settings">Настройки</string>
+
+    <!-- Login -->
+    <string name="login_title">Вход в сервер</string>
+    <string name="login_subtitle">Введите данные вашего OMV6 сервера</string>
+    <string name="login_hint_address">Адрес сервера (IP или домен)</string>
+    <string name="login_hint_port">Порт (по умолчанию 80)</string>
+    <string name="login_hint_username">Имя пользователя</string>
+    <string name="login_hint_password">Пароль</string>
+    <string name="login_button">Подключиться</string>
+    <string name="login_https">Использовать HTTPS</string>
+    <string name="login_remember">Запомнить меня</string>
+    <string name="login_error_empty">Заполните все поля</string>
+    <string name="login_error_auth">Ошибка авторизации</string>
+    <string name="login_error_unknown">Неизвестная ошибка</string>
+
+    <!-- Dashboard -->
+    <string name="title_dashboard">Главная</string>
+    <string name="dash_system_info">Системная информация</string>
+    <string name="dash_uptime">Аптайм</string>
+    <string name="dash_cpu_cores">%d ядер</string>
+    <string name="dash_quick_stats">Быстрая статистика</string>
+    <string name="dash_disks">Диски</string>
+    <string name="dash_services">Сервисы</string>
+    <string name="dash_active">Активны</string>
+    <string name="dash_all_services">Все сервисы</string>
+    <string name="dash_monitoring">Детальный мониторинг</string>
+    <string name="dash_smart_disks">S.M.A.R.T. Диски</string>
+
+    <!-- Services -->
+    <string name="title_services">Сервисы</string>
+    <string name="svc_active">Активные</string>
+    <string name="svc_disabled">Отключённые</string>
+    <string name="svc_running">Запущен</string>
+    <string name="svc_stopped">Остановлен</string>
+    <string name="svc_enabled">Включён</string>
+    <string name="svc_no_data">Нет данных</string>
+
+    <!-- Monitoring -->
+    <string name="title_monitoring">Мониторинг</string>
+    <string name="mon_updated">Обновлено: %s</string>
+    <string name="mon_system_resources">Системные ресурсы</string>
+    <string name="mon_cpu">ЦПУ</string>
+    <string name="mon_ram">ОЗУ</string>
+    <string name="mon_cpu_temp">Температура CPU</string>
+    <string name="mon_filesystems">Файловые системы</string>
+    <string name="mon_disks">Диски</string>
+    <string name="mon_network">Сеть</string>
+    <string name="mon_used">Использовано: %s</string>
+    <string name="mon_free">Свободно: %s</string>
+    <string name="mon_ip">IP</string>
+    <string name="mon_netmask">Маска</string>
+    <string name="mon_gateway">Шлюз</string>
+
+    <!-- Docker -->
+    <string name="title_docker">Docker</string>
+    <string name="docker_running_count">Работают (%d)</string>
+    <string name="docker_stopped_count">Остановлены (%d)</string>
+    <string name="docker_no_containers">Нет контейнеров</string>
+    <string name="docker_running">Работает</string>
+    <string name="docker_stopped">Остановлен</string>
+    <string name="docker_start">Запустить</string>
+    <string name="docker_stop">Остановить</string>
+    <string name="docker_restart">Перезапустить</string>
+    <string name="docker_menu">Меню</string>
+
+    <!-- S.M.A.R.T. -->
+    <string name="title_smart">S.M.A.R.T. Мониторинг</string>
+    <string name="smart_back">Назад</string>
+    <string name="smart_no_devices">Нет устройств с S.M.A.R.T.</string>
+    <string name="smart_overall_status">Общий статус</string>
+    <string name="smart_no_data">Нет данных</string>
+    <string name="smart_attributes">Атрибуты S.M.A.R.T.</string>
+    <string name="smart_temperature">Температура</string>
+    <string name="smart_serial">Серийный</string>
+    <string name="smart_power_cycles">Включений</string>
+    <string name="smart_hours">Часов работы</string>
+    <string name="smart_firmware">Прошивка</string>
+    <string name="smart_size">Размер</string>
+
+    <!-- Notifications -->
+    <string name="title_notifications">Уведомления</string>
+    <string name="notif_title">Уведомления</string>
+    <string name="notif_empty">Нет уведомлений</string>
+    <string name="notif_all_ok">Все системы работают нормально</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Настройки</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_theme">Тема оформления</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_system">Системная</string>
+    <string name="settings_light">Светлая</string>
+    <string name="settings_dark">Тёмная</string>
+    <string name="settings_app">Приложение</string>
+    <string name="settings_version">Версия</string>
+    <string name="settings_github">Open-source проект</string>
+    <string name="settings_security">Безопасность</string>
+    <string name="settings_security_desc">Данные зашифрованы AES-256</string>
+    <string name="settings_logout">Выйти из аккаунта</string>
+    <string name="settings_logout_confirm_title">Выход</string>
+    <string name="settings_logout_confirm">Вы уверены, что хотите выйти? Данные для входа будут удалены.</string>
+    <string name="settings_logout_confirm_msg">Вы уверены, что хотите выйти? Данные для входа будут удалены.</string>
+    <string name="settings_logout_yes">Выйти</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_developer">Разработчик</string>
+    <string name="settings_open_github">Открыть GitHub</string>
+
+    <!-- Common -->
+    <string name="common_ok">ОК</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_retry">Повторить</string>
+    <string name="common_error">Ошибка</string>
+    <string name="common_loading">Загрузка…</string>
+    <string name="common_refresh">Обновить</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Состояние OMV сервера</string>
+</resources>
