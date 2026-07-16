@@ -40,14 +40,16 @@
 ```bash
 cd OmvClient
 ./gradlew assembleDebug
-
+```
 
 ## Лицензия
 
-MIT License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Автор
 
 **mrSaT13** — разработчик приложения
 
 GitHub: [github.com/mrSaT13/ClientOMV6](https://github.com/mrSaT13/ClientOMV6)
+```
